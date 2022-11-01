@@ -1,20 +1,15 @@
-const api_url = "https://pokeapi.co/api/v2/pokemon/"
+let url = "https://raw.githubusercontent.com/FacuCao/jsontp/main/json.json";
+fetch(url)
+    .then(response => response.json())
+    .then(data => mostrarData(data))
+    .catch(error => console.log(error))
 
-
-async function traerpoke(){
-    const response = await fetch(api_url)
-    const data = await response.json()
+const mostrarData = (data) => {
     console.log(data)
-    // fetch(api_url).then(function(response){
-    //     return response.json()
-    // }).then(function(obj){
-    //     console.log(obj)
-    // }).catch(function(error){
-    //     console.log(error)
-    // })
-
-    document.getElementById(json1).innerHTML="<h4>" + data.results.name + "</h4>"
-    console.log()
+    let body = ""
+    for (var i = 0; i < data.length; i++) {
+        body += `<tr><td>${data[i].producto}</td><td>${data[i].altura}</td><td><img src="${data[i].imagen}"></img></td></tr>`
+    }
+    document.getElementById('data').innerHTML = body
+    //console.log(body)
 }
-
-traerpoke()

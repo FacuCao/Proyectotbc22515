@@ -1,3 +1,4 @@
+alert("hola,bienvenido Brother!")
 console.log("Hola,bienvenido a The Brothers Company")
 
 const nombre = document.getElementById("nombre")
