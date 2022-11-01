@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+
+    html{
+        font-size: 62.5%;
+    }
+
+
+    #divcontent {
+        display: flex;
+        justify-content: space-between;
+        background-color: royalblue;
+        flex-wrap: wrap;
+        
+    }
+    
+    div img{
+        border-radius: 50%;
+    }
+    
+    
+    #divnav{
+        align-items: flex-end;
+    }
+    
+    .divnav{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+        
+        
+    }
+    
+    #divh{
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    div h1{
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    
+    }
+    
+    div h3{
+        font-family: 'Saira', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    
+    nav{
+        width: 250px;
+    }
+    .aNav{
+        margin: 2%;
+        color: white;
+        background-color: black;
+        padding: 1.5%;
+        border-radius: 0.5rem;
+        text-decoration: none;
+    }
+    
+    .aNav :hover{
+        color: blue;
+        
+    }
+    
+    
+    
+    menu{
+        margin: 20rem;
+        width: 70%;
+    } 
+    
+    h2{
+        font-family: 'Saira', sans-serif;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+
+    #contenedorproducto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        background-color: powderblue;
+        gap: 1rem;  
+        padding: 3rem; 
+    }
+
+    .cajagrid {
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+        text-align: center;
+        
+    }
+    
+    #contenedorproducto img{
+        background-color: royalblue;
+        justify-content: space-between;
+        align-content: center;
+        border-radius: 0%;
+        margin-top: 1rem;
+        border: solid white;
+    
+    }
+    
+    table {
+        table-layout: fixed;
+        width: 50%;
+        border-collapse: collapse;
+        border: 3px solid black;
+        margin: 0.5rem 0 0.5rem 11.5rem;
+      }
+
+      footer div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: royalblue;
+        vertical-align: middle;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: royalblue;
+        vertical-align: middle;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }

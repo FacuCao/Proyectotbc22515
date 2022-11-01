@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+
+    html{
+        font-size: 62.5%;
+    }
+
+
+
+
+#divcontent {
+    display: flex;
+    justify-content: space-between;
+    background-color: royalblue;
+    flex-wrap: wrap;
+    
+}
+
+div img{
+    border-radius: 50%;
+}
+
+
+#divnav{
+    align-items: flex-end;
+}
+
+.divnav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    
+    
+}
+
+#divh{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+div h1{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+div h3{
+    font-family: 'Saira', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+nav{
+    width: 250px;
+}
+.aNav{
+    margin: 2%;
+    color: white;
+    background-color: black;
+    padding: 1.5%;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.aNav :hover{
+    color: blue;
+    
+}
+
+@keyframes changecolor {
+    from{background-color: royalblue;
+    }
+    to{background-color: lightblue;
+
+    }
+}
+
+
+ /* menu{
+    max-width: 80%;
+    max-height: 80%;
+}   */
+
+.menutrans{
+    animation: changecolor  15s ease infinite alternate;
+}
+
+h2{ 
+    font-family: 'Saira', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: royalblue;
+    vertical-align: middle;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: royalblue;
+    vertical-align: middle;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }

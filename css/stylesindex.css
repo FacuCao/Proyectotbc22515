@@ -1,0 +1,576 @@
+
+@media screen and (max-width:640px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        }
+    
+        html{
+            font-size: 62.5%;
+        }
+    
+    header{
+        display: block;
+        flex-flow: column wrap;
+
+    }
+    
+    
+    #divcontent {
+        display: block;
+        background-color: royalblue;
+        align-items: baseline;
+        justify-content: center;
+        flex-flow: column nowrap;
+        
+    }
+    
+    div img{
+        border-radius: 50%;
+        align-items: center;
+    }
+    
+    
+    #divnav{
+        align-items: flex-end;
+    }
+    
+    .divnav{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+        
+        
+    }
+    
+    #divh{
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    div h1{
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    
+    }
+    
+    div h3{
+        font-family: 'Saira', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    
+    nav{
+        width: 250px;
+    }
+    .aNav{
+        margin: 2%;
+        color: white;
+        background-color: black;
+        padding: 1.5%;
+        border-radius: 0.5rem;
+        text-decoration: none;
+    }
+    
+    .aNav :hover{
+        color: blue;
+        
+    }
+    
+    
+    
+    /* menu{
+        margin: 20rem;
+        width: 70%;
+    }  */
+    
+    h2{
+        font-family: 'Saira', sans-serif;
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    #gridbox{
+        display: grid;
+        grid-template-columns: repeat(3, 25.6vw);
+        grid-template-rows: repeat(3, 1fr 1fr 1fr);
+        gap: 1rem;
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        flex-wrap: wrap;
+    }
+    
+    .cajagrid {
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+        text-align: center;
+        
+    }
+    
+    #cajaespecial{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+        text-align: center;
+        
+    }
+    
+    #cajaespecial2{
+        display: flex;
+        align-content: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+    }
+    
+    iframe{
+        border: solid 1px black;
+        width: 100%;
+    }
+    
+    #gridbox div:hover{
+        background-color: powderblue;
+        color: royalblue;
+    
+        /* Transcision */
+    
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        
+    }
+    
+    #cajaespecial h5{
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 2rem;
+    }
+    
+    .cajagrid a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    
+      
+        
+    footer div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: royalblue;
+        vertical-align: middle;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: royalblue;
+        vertical-align: middle;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+}
+
+@media screen  and (max-width:1024px) and (min-width:640px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        }
+    
+        html{
+            font-size: 62.5%;
+        }
+    
+    
+    
+    
+    #divcontent {
+        display: flex;
+        justify-content: space-between;
+        background-color: royalblue;
+        flex-wrap: wrap;
+        
+    }
+    
+    div img{
+        border-radius: 50%;
+    }
+    
+    
+    #divnav{
+        align-items: flex-end;
+    }
+    
+    .divnav{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+        
+        
+    }
+    
+    #divh{
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    div h1{
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    
+    }
+    
+    div h3{
+        font-family: 'Saira', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    
+    nav{
+        width: 250px;
+    }
+    .aNav{
+        margin: 2%;
+        color: white;
+        background-color: black;
+        padding: 1.5%;
+        border-radius: 0.5rem;
+        text-decoration: none;
+    }
+    
+    .aNav :hover{
+        color: blue;
+        
+    }
+    
+    
+    
+    /* menu{
+        margin: 20rem;
+        width: 70%;
+    }  */
+    
+    h2{
+        font-family: 'Saira', sans-serif;
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    #gridbox{
+        display: grid;
+        grid-template-columns: repeat(3, 25.6vw);
+        grid-template-rows: repeat(3, 1fr 1fr 1fr);
+        gap: 1rem;
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        flex-wrap: wrap;
+    }
+    
+    .cajagrid {
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+        text-align: center;
+        
+    }
+    
+    #cajaespecial{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+        text-align: center;
+        
+    }
+    
+    #cajaespecial2{
+        display: flex;
+        align-content: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+    }
+    
+    iframe{
+        border: solid 1px black;
+        width: 100%;
+    }
+    
+    #gridbox div:hover{
+        background-color: powderblue;
+        color: royalblue;
+    
+        /* Transcision */
+    
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        
+    }
+    
+    #cajaespecial h5{
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 2rem;
+    }
+    
+    .cajagrid a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    
+      
+        
+    footer div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: royalblue;
+        vertical-align: middle;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: royalblue;
+        vertical-align: middle;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+}
+
+@media screen and (min-width:1024px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        }
+    
+        html{
+            font-size: 62.5%;
+        }
+    
+    
+    
+    
+    #divcontent {
+        display: flex;
+        justify-content: space-between;
+        background-color: royalblue;
+        flex-wrap: wrap;
+        
+    }
+    
+    div img{
+        border-radius: 50%;
+    }
+    
+    
+    #divnav{
+        align-items: flex-end;
+    }
+    
+    .divnav{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+        
+        
+    }
+    
+    #divh{
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    div h1{
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    
+    }
+    
+    div h3{
+        font-family: 'Saira', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    
+    nav{
+        width: 250px;
+    }
+    .aNav{
+        margin: 2%;
+        color: white;
+        background-color: black;
+        padding: 1.5%;
+        border-radius: 0.5rem;
+        text-decoration: none;
+    }
+    
+    .aNav :hover{
+        color: blue;
+        
+    }
+    
+    
+    
+    menu{
+        margin: 20rem;
+        width: 70%;
+    }
+    
+    h2{
+        font-family: 'Saira', sans-serif;
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    #gridbox{
+        display: grid;
+        grid-template-columns: repeat(3, 25.6vw);
+        grid-template-rows: repeat(3, 1fr 1fr 1fr);
+        gap: 1rem;
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        flex-wrap: wrap;
+    }
+    
+    .cajagrid {
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+        text-align: center;
+        
+    }
+    
+    #cajaespecial{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+        text-align: center;
+        
+    }
+    
+    #cajaespecial2{
+        display: flex;
+        align-content: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: royalblue;
+        border: solid;
+        border-radius: 0.5rem;
+    }
+    
+    iframe{
+        border: solid 1px black;
+        width: 100%;
+    }
+    
+    #gridbox div:hover{
+        background-color: powderblue;
+        color: royalblue;
+    
+        /* Transcision */
+    
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+        
+    }
+    
+    #cajaespecial h5{
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 2rem;
+    }
+    
+    .cajagrid a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    
+      
+        
+    footer div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: royalblue;
+        vertical-align: middle;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: royalblue;
+        vertical-align: middle;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+}
+
+
+
