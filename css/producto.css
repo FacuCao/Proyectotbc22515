@@ -109,6 +109,14 @@
         text-align: center;
         
     }
+
+    p{
+        font-family: 'Saira', sans-serif;
+        color: black;
+        font-weight: 1000;
+        
+
+    }
     
     #contenedorproducto img{
         background-color: royalblue;
@@ -127,6 +135,14 @@
         border: 3px solid black;
         margin: 0.5rem 0 0.5rem 11.5rem;
       }
+
+    #table{
+        margin-left: 33rem;
+        color: white;
+        background-color: royalblue;
+    
+
+    } 
 
       footer div{
         display: flex;
